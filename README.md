@@ -8,16 +8,12 @@
 
 No terminal na pasta do projeto, execute:
 
- . ﹢ ˖ ✦
 mix deps.get
- . ﹢ ˖ ✦
 
 para instalar as dependências do projeto
 e depois, execute:
 
- . ﹢ ˖ ✦
 mix run 
- . ﹢ ˖ ✦
 
 para rodar o projeto!!
 
@@ -25,43 +21,31 @@ para rodar o projeto!!
 
 Adicionar contato:
 
- . ﹢ ˖ ✦
 add --name <nome> --company <empresa> --phone <telefone> --email <email>
- . ﹢ ˖ ✦
 
 Editar contato:
 
- . ﹢ ˖ ✦
-edit <id> --phone <novo telefone>
- . ﹢ ˖ ✦
+edit < id > --phone < novo telefone >
 
 Remover contato:
 
- . ﹢ ˖ ✦
-del <id>
- . ﹢ ˖ ✦
+del < id >
 
 Mostrar contato:
 
- . ﹢ ˖ ✦
-show <id>
- . ﹢ ˖ ✦
-
+show < id >
+ 
 Listar contatos:
 
- . ﹢ ˖ ✦
 list
- . ﹢ ˖ ✦
 
 Buscar contato:
 
- . ﹢ ˖ ✦
 search --name <nome> OU --phone <telefone> OU --email <email>
- . ﹢ ˖ ✦
 
 Encerrar:
 
- . ﹢ ˖ ✦
 exit
+
  . ﹢ ˖ ✦
 
