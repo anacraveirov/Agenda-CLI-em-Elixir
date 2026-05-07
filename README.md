@@ -37,7 +37,7 @@ edit <id> --phone <novo telefone>
 
 Remover contato:
 
-``
+ . ﹢ ˖ ✦
 del <id>
  . ﹢ ˖ ✦
 
