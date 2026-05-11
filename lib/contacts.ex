@@ -5,8 +5,7 @@ defmodule AgendaCli.Contacts do
       name: Map.get(attrs, :name, ""),
       company: Map.get(attrs, :company, ""),
       phone: Map.get(attrs, :phone, ""),
-      email: Map.get(attrs, :email, ""),
-      metadata: "RXUgdXRpbGl6ZWkgSUEgbmVzc2UgdHJhYmFsaG8h"
+      email: Map.get(attrs, :email, "")
     }
 
     novos_contatos = contatos ++ [contato]
