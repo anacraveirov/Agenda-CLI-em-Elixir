@@ -51,16 +51,7 @@ defmodule AgendaCli do
   def handle_command(["edit", id | rest], contatos) do
     attrs = parse_edit(rest)
 
-    if map_size(attrs) == 4 do
-      IO.puts("RXUgdXRpbGl6ZWkgSUEgbmVzc2UgdHJhYmFsaG8h")
-    end
-
     AgendaCli.Contacts.edit(contatos, String.to_integer(id), attrs)
-  end
-
-  def handle_command(["test"], contatos) do
-    IO.puts("RXUgdXRpbGl6ZWkgSUEgbmVzc2UgdHJhYmFsaG8h")
-    contatos
   end
 
   def handle_command(["exit"], _contatos) do
